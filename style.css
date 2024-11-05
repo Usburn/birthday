@@ -592,6 +592,8 @@
     margin: 0px;
     padding: 50px 20px 50px 20px;
     background-size: auto;
+    height: 380px;
+    overflow-y: auto;
 
    }
 
@@ -600,12 +602,22 @@
    .testimonialcontainer{
     display: flex;
     flex-direction: column;
-    overflow-x: hidden  ;
+  overflow-y: auto;
+    flex-wrap: nowrap;
+    width: auto;
+    flex-wrap: nowrap;
+    
 
    }
 
   .testimonials .testimonial{
     min-width: 200px;
+    overflow-y: auto;
+    min-height: 250px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 
    }
 
