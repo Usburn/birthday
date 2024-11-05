@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="herocontainer" id="Acceuil">
+    <li class="logo">
+        <img src="./images/myImage.jpg" alt="" class="logoImage">
+    </li>
+
+
+    <div class="tophead">
+        <nav>
+            <ul class="evrything">
+                <li class="itemSpace"></li>
+                <li class="item"><a href="#Acceuil">Accueil</a></li>
+                <li class="item"><a href="#Menu">Menu</a></li>
+                <li class="item"><a href="#Testimonial">Temoignages</a></li>
+                <li class="item"><a href="#Contact">Contact</a></li>
+                <li><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank"> <div class="social">Social</div> </a> </li>
+            </ul>
+        </nav>
+        
+
+    </div>
+
+
+    <div class="topheadMobile">
+
+        <div class="logomobile">
+            <img src="./images/myImage.jpg" alt="" class="logoitem">
+        </div>
+
+        <div class="logomenu">
+            <img src="./images/MenuIcon.png" alt="" class="menuIcon" onclick="mfOpennav()">
+        </div>
+       
+    </div>
+
+
+
+    <div class="heropanel" >
+
+        <div class="flip-box" id="flip-box">
+            <div class="flip-box-inner" id="flip-box-inner">
+    
+                <!-- Front card -->
+    
+                <div class="flip-box-front">
+                    <h1>Bienvenue</h1>
+                    <p>Nous avons prévu une soirée remplie de joie, de rires et de surprises. Au programme, un délicieux repas, des jeux amusants et des moments inoubliables à partager ensemble. Ce sera l’occasion parfaite pour se remémorer des souvenirs, en créer de nouveaux et montrer à Juline à quel point elle est aimée.
+
+                    </p>
+
+                       <p>Juline est une personne incroyable qui apporte tant de bonheur dans nos vies, et nous voulons qu’elle se sente vraiment spéciale en ce jour. Votre présence compte énormément pour elle, et c’est ensemble que nous célébrerons cette nouvelle année de sa vie.
+                        
+                       </p> 
+                        
+                       <p>Nous avons hâte de vous voir et de célébrer ensemble !</p> 
+                
+                    <div class="herolinks">
+                        <div class="buttontransblack" onclick="mfFlipToBlack();"> Savoir plus</div>
+                    </div>
+    
+                </div>
+    
+    
+                <div class="flip-box-back">
+                    <h1>Plus encore</h1>
+                    <p>Les mots ne suffisent effectivement pas à décrire une personne aussi exceptionnelle que Juline. Educatrice depuis plus de 13 ans, 
+                        elle possède une maîtrise en éducation de l'université d'Aix-Marseille. Actuellement, elle œuvre au CPE Panda, 
+                        où elle consacre son énergie à protéger et à épanouir les nouveau-nés. Son engagement, sa discipline et son 
+                        attention font d'elle une professionnelle dévouée, qui impacte positivement la vie des enfants et de leurs familles. Son travail est une véritable vocation, et sa passion se ressent dans tout ce qu'elle entreprend.</p>
+                
+                    <div class="herolinks">
+                        <div class="buttontransblack" onclick="mfFlipToFront();"> Back</div>
+                    </div>
+    
+                </div>
+    
+    
+    
+            </div>
+    
+    
+    
+        </div>
+    
+
+
+
+    </div>
+
+    
+
+</div>
+
+<div class="sidenav" id="sidenav">
+    <img class="menuiconclose" src="./images/MenuCloseIcon.png" alt="" onclick="mfClosenav()">
+    <a href="#Acceuil" onclick="mfClosenav()">Acceuil</a>
+    <a href="#Menu" onclick="mfClosenav()">Menu</a>
+    <a href="#Testimonial" onclick="mfClosenav()">Temoignage</a>
+    <a href="#Contact" onclick="mfClosenav()">Contact</a>
+
+</div>
+
+
+
+  
+    <!--##########################-->
+    <!--# FEATURES               #-->
+    <!--##########################-->
+    <div class="features" id="Menu">
+        <h2 class="titreMenu"> Menu</h2> 
+
+       <p>Une multitude de plats caribéens sera disponible. Dans la section suivante, nous présenterons quelques exemples de nourritures. Mais cette liste n'est pas exhaustive ; beaucoup d'autres plats seront au rendez-vous. Haïti est réputé pour sa délicieuse cuisine. Cette fête d'anniversaire représente une occasion parfaite pour goûter à la nourriture haïtienne. De surcroît, des viennoiseries et des boissons, alcoolisées ou non, seront également disponibles.</p>
+
+        <div class="featurecontainer">
+            <div class="feature">
+                <a href="#">
+                    <img class="icon" src="./images/venoiserie.jpg" id="icovenoiserie" />
+                </a>
+                <h3>Des viennoiseries</h3>
+                <p>Comme viennoiseries, il y aura des croissants, des croissants aux amandes, des pains au chocolat (ou chocolatines), des pains aux raisins, des muffins et des torsades aux pépites de chocolat.</p>
+            </div>
+
+
+            <div class="feature">
+                <a href="#">
+                    <img class="icon" src="./images/riz.jpg" id="icorice" />
+                </a>
+                <h3>Riz colé Haitien</h3>
+                <p>Le riz collé haïtien est l'un des plats les plus consommés dans le pays. C'est un mélange de riz,
+                     de haricots, d'huile d'olive, de lait de coco et d'épices (ail, poireau, poivre, poivron). Une variété de ce plat consiste à ajouter des champignons, ce qui lui donne une couleur noirâtre.</p>
+            </div>
+
+
+            <div class="feature">
+                <a href="#">
+                    <img class="icon" src="./images/tassot.webp" id="icotasso" />
+                </a>    
+                <h3>Le tasso haitien</h3>
+                <p>Une sélection de viandes (poulet, dinde, porc, chèvre) sera proposée, incluant le célèbre tasso. Le tasso de chèvre se distingue par son assaisonnement avec un mélange d'épices et sa préparation en friture. En accompagnement, nous servirons également des "bananes pesées" et du "pikliz".</p>
+            </div>
+            <div class="feature">
+                <a href="#">
+                    <img class="icon" src="./images/Salad_russe.jpeg" id="icosalade" />
+                </a>
+                <h3>La salade russe haitienne</h3>
+                <p>La salade russe haïtienne est un plat emblématique de la cuisine haïtienne, souvent servi lors des célébrations, des fêtes et des repas familiaux. Bien qu'elle porte le nom de "salade russe", elle a évolué pour refléter les saveurs et les ingrédients locaux.
+                   </p>
+            </div>
+
+            <div class="feature">
+                <a href="#">
+                    <img class="icon" src="./images/macaroni.jpg" id="icomacaroni" />
+                </a>
+                <h3>Macaroni au gratin</h3>
+                <p>Le macaroni au gratin haïtien est un plat très apprécié, souvent servi lors des occasions spéciales et des repas familiaux. C'est une interprétation unique du classique macaroni au fromage, intégrant des influences créoles et des ingrédients locaux qui lui confèrent une saveur distinctive.
+
+                   </p>
+            </div>
+
+            
+
+            <div class="feature">
+                <a href="#">
+                    <img class="icon" src="./images/champagne.jpg" id="icochampagne" />
+                </a>
+                <h3>Des boissons</h3>
+                <p>Il y aura une variété de boissons, alcoolisées (champagne, vin) et non alcoolisées (sodas, eau, etc.)</p>
+            </div>
+        </div>
+    </div>   
+
+
+
+
+<!-- #######################################-->
+ <!--############ Testimonial############### -->
+ <!-- #######################################-->
+
+ <div class="testimonials" id="Testimonial">
+    <h2>Temoignages</h2>
+
+ 
+    
+    <div class="testimonialcontainer">
+        <div class="testimonial">
+            <p>Depuis notre rencontre, tu ne m'as jamais déçu. Tu es toujours là pour moi, même dans les moments les plus périlleux. Ma vie est mille fois meilleure avec toi à mes côtés. Chaque jour, je suis enclin à renouveler mon amour pour toi. En ce jour de ton anniversaire, j'aimerais te souhaiter un bon anniversaire. Que Dieu te bénisse, te protège et te garde sous ses ailes. 
+                </p>
+                <p>Je t'aime mon amour.</p>
+
+            <div class="footnote">@Zaro I., 2024</div>
+        </div>
+
+        <div class="testimonial">
+            <p>Reprotrice vedette de la famille : "Toujours sur place, là où l'action se passe." Qui dit Juline, dit joie, gaieté, ambiance. Joyeux anniversaire, soeurette ! Je t'aime très fort.</p>
+            <div class="footnote">@Jeff H., 2024</div>
+        </div>
+
+        <div class="testimonial">
+            <p>Heureux jour de naissance Juju, je suis fière de t'avoir comme grande sœur, mon amour pour toi n'a pas de prix, le dévouement, la motivation et le courage dont tu as pour réaliser tes rêves sont illimités. Tu es une personne très optimisme et déterminée. Continue de briller chérie. Bisous😘💋💋❤️🫂 June, je t'aime beaucoup😘</p>
+            <div class="footnote">@Erlande H., 2024</div>
+        </div>
+
+
+        <div class="testimonial">
+            <p>Juline est l'une des tendres grandes soeurs et amie que j'aime beaucoup parce qu'elle m'avait donné un sérieux accompagnement lors de mon adolescence et jusqu'à présent, tout en cultivant ses valeurs telles que: l'amour, l'empathie et la confidentialité.
+
+                En cette journée si spéciale, je tiens à te souhaiter un joyeux anniversaire ma sœur de cœur. Que le bon Dieu puisse continuer à déverser sur toi ses riches bénédictions afin que tu sois toujours une source pour ceux et celles qui ont besoin d'eau fraîche.
+                Je t'aime grandement 🩷
+                .</p>
+            <div class="footnote">@Kénia H., 2024</div>
+        </div>
+
+        <div class="testimonial">
+            <p>Depuis notre rencontre au MUPANAH en 2016, la connexion s'est établie rapidement et perdure jusqu'à aujourd'hui. C'est tout à fait normal,  étant donné que nous faisons partie de la team novembre 😀! La sympathie et la gentillesse sont toujours présentes en toi. 
+                Bon anniversaire ma filleule "Gran Fanm".</p>
+            <div class="footnote">@Luvanie P., 2024</div>
+        </div>
+
+        <div class="testimonial">
+            <p>Ma petite sœur, Juline, est adorée pour son amabilité et sa gentillesse. En plus de cela, elle possède des qualités qui la rendent éblouissante : elle est intelligente, décontractée, gaie, ouverte d’esprit, enthousiaste, très créative, travailleuse, patiente, courageuse et déterminée. Ce qui m’impressionne le plus chez elle, c’est sa bravoure, sa détermination et son courage face aux défis de la vie.
+
+                Je te souhaite un joyeux anniversaire, ma belle ! Que ce nouveau printemps t’apporte encore plus de joie, de gaieté, d’amour et de merveilleuses surprises.
+                
+                Ta grande sœur et confidente, qui t’embrasse fort 🫂.</p>
+            <div class="footnote">@Famille Francique, 2024</div>
+        </div>
+
+        <div class="testimonial">
+            <p>Joyeux l'âge du Christ à notre chère commère. 
+                Certains disent, à cet âge on est pile dans l'année du bonheur ; l'année la plus heureuse dans notre vie d'adulte, de couple etc...
+                On prie pour que Dieu puisse t'accorder beaucoup plus d'années de joie et de bonheur(longévité), avec une santé Robuste.
+                On est reconnaissant, heureux et bénie de t'avoir dans notre vie.
+                Bonne fête notre chère commère!!! Que Dieu t'accorde ce que ton coeur désire!
+                " ".</p>
+            <div class="footnote">@Johanna et Rodriguez, 2024</div>
+        </div>
+
+      
+    </div>
+
+
+</div>
+    
+
+
+
+
+
+<!-- #################### -->
+     <!-- Nous rejoindre -->
+    <!-- ################### -->
+
+
+    <div class="Nousrejoindre" id="Contact">
+        <div class="Nousrejoindrecontainer">
+            <div class="info">
+
+                <h2> Nous rejoindre</h2>
+                <p> Si vous avez des questions, veuillez nous contacter en remplissant le formulaire ci-dessous.</p>
+                    
+                <center>
+                    <img src="./images/Hello.png" alt="" class="icon" id="icoHello">
+                </center>
+
+
+            </div>
+
+            <div class="form">
+                <form name="Nousrejoindre" method="post" autocomplete="off" action="https://yrtechforms.com/submit/?{Nousrejoindre}&6010929140610
+                ">
+                <input type="text" placeholder="Name" name="Name" required>
+                <input type="text" placeholder="Email" name="Email" required>
+                <textarea name="Message"  placeholder="Message" required></textarea>
+                <input type="submit" value="Submit">
+
+
+                </form>
+
+        </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!--####3  -->
+    <!-- Footer -->
+
+    <div class="footer">
+        <ul>
+            <li><a href="#">Top</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">GDPR</a></li>
+        </ul>
+        <p>
+            &copy; Copyright {2024} {Useburn production}<br />
+            All rights reserved
+        </p>
+    </div>
+
+
+
+
+
+
+   
+    <script>
+
+        function mfFlipToBlack(){
+            document.getElementById("flip-box-inner").style.transform = "rotateY(180deg)";
+        }
+
+        function mfFlipToFront(){
+            document.getElementById("flip-box-inner").style.transform = "";
+        }
+
+        function mfOpennav(){
+            document.getElementById("sidenav").style.width = "100%";
+        }
+
+        function mfClosenav(){
+            document.getElementById("sidenav").style.width = "0";
+           
+        }
+
+
+
+
+
+
+
+    </script>
+   
+</body>
+</html>
