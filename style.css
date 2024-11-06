@@ -474,6 +474,61 @@
 }
 
 
+
+.testimonials .myaudio{
+    padding: 20px;
+    width: 450px;
+    height: 250px;
+    background-color: rgb(209, 203, 209);;
+ 
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+    margin: 0%;
+    overflow-y: hidden;
+   
+   
+    
+}
+
+.audioImage{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 10px;
+    overflow-x: hidden;
+ 
+}
+
+.myaudio .footnote{
+    padding: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 25;
+    font-weight: 700;
+}
+
+.silianise{
+    padding: 0%;
+    margin: 0;
+    width: 100%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
     min-height:100px; 
     background-color:rgb(209, 203, 209);
@@ -618,6 +673,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    
 
    }
 
@@ -628,7 +684,26 @@
    .info p{
     text-align: center;
    }
-  
+
    
- 
+.testimonials .myaudio{
+    margin: 20px;
+    
+    width: 310px;
+    overflow-x: 0;
+    overflow-y: 0;
+}
+
+
+.silianise{
+    padding: 0%;
+    margin: 0;
+    width: 80%;
+    
+
+}
+
+
+
+
 }
